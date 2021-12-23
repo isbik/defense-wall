@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: cadetblue;
+    }
+
+    canvas {
+      background-color: aliceblue;
+      border: 1px solid gray;
+    }
+
+    img {
+      display: none;
+    }
+
+    body {
+      position: relative;
+    }
+
+    .menu {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+
+    .menu span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .menu button {
+      padding: 10px 30px;
+      font-weight: bold;
+      font-size: 2rem;
+      background-color: cadetblue;
+      color: aliceblue;
+    }
+  
+</style>
+</head>
+
+<body>
+  <img id="ball" src="/ball.c6ae50d8.png" alt="">
+  <img id="cannon" src="/cannon.803a82fa.png" alt="">
+  <img id="enemy" src="/enemy.1bcb8551.png" alt="">
+  <img id="groundEnemy" src="/ground_enemy.e3cd7e67.png" alt="">
+  <img id="wall" src="/wall.d35e88ca.png" alt="">
+  <img id="bg" src="/bg.f8007ec1.png" alt="">
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <div class="menu">
+    <button id="start">Start</button>
+  </div>
+  <script src="/index.379dd93c.js" defer=""></script>
+</body>
+
+</html>
